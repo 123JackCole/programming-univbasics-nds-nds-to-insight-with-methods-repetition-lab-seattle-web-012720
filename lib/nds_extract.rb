@@ -26,7 +26,7 @@ end
 def list_of_directors(source)
   result = []
   index = 0
-  while index < source[:name].count do
+  while index < source[director[:name]].count do
     result[index] = source[:name]
     index += 1
   end
