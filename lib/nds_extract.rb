@@ -44,10 +44,12 @@ def total_gross(source)
   
   total = 0
   director_list = list_of_directors(source)
-  directors_totals = directors_totals(source)
+  gross_totals = directors_totals(source)
   index = 0
   while index < director_list.count do
     
+    gross_totals += 
+    index += 1
   end
   
 end
