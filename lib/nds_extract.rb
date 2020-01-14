@@ -47,11 +47,10 @@ def total_gross(source)
   gross_totals = directors_totals(source)
   index = 0
   while index < director_list.count do
-    
-    gross_totals += 
+    total += gross_totals[director_list[index]]
     index += 1
   end
-  
+  total
 end
 
 
