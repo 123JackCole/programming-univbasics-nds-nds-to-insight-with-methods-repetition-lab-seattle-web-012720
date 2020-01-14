@@ -30,7 +30,7 @@ def list_of_directors(source)
     result[index] << source[:name]
     index += 1
   end
-  result
+  #result
   p source
 end
 
